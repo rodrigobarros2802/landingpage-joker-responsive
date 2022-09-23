@@ -85,3 +85,21 @@ header {
     max-width: 60px;
     margin-right: 20px;
 }
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.redes li {
+    list-style: none;
+}
+
+.redes img {
+    filter: invert(1);
+}
