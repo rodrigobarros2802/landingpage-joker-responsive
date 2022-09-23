@@ -33,7 +33,12 @@ header {
     cursor: pointer;
 }
 
+header .logo img, header .toggle img {
+    max-width: 100%;
+}
+
 .banner {
+    position: relative;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -42,40 +47,43 @@ header {
     background-image: url("/assets/img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 0 100px;
 }
 
-.banner .conteudo {
-    max-width: 600px;
+.conteudo {
+    max-width: 550px;
 }
 
-.banner .conteudo h2 {
+.conteudo h2 {
     color: var(--branco);
     font-size: 2.5em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 400;
-    line-height: 1.2em;
+    
 }
 
-.banner .conteudo h2 span {
-    font-weight: 700;
+.conteudo h2 span {
+    font-weight: 800;
 }
 
-.banner .conteudo p {
+.conteudo p {
     color: var(--branco);
     font-weight: 300;
     font-size: 18px;
-    margin: 2em 0;
+    margin: 15px 0 35px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
 }
 
 .play {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-decoration: none;
     color: var(--branco);
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 1.2em;
     letter-spacing: 0.2em;
@@ -92,14 +100,20 @@ header {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    left: 50%;
+    top: 50%;
     transform: translateY(-50%);
+    right: 20px;
 }
 
 .redes li {
     list-style: none;
 }
 
+.redes a {
+    text-decoration: none;
+}
+
 .redes img {
     filter: invert(1);
+    transform: scale(0.6);
 }
