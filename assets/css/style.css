@@ -12,15 +12,26 @@
     font-family: var(--fonte-principal);
 }
 
-body {
-    background-color: #000;
-}
-
 header {
+    position: absolute;
+    left: 0;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     z-index: 1000;
     padding: 40px 100px;
+}
+
+.logo {
+    max-width: 120px;
+}
+
+.toggle {
+    max-width: 80px;
+}
+
+.banner {
+    background-image: url("/assets/img/bg.jpg");
 }
