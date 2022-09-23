@@ -11,3 +11,16 @@
     box-sizing: border-box;
     font-family: var(--fonte-principal);
 }
+
+body {
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1000;
+    padding: 40px 100px;
+}
