@@ -78,8 +78,10 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.2em;
+    letter-spacing: 0.2em;
 }
 
 .play img {
+    max-width: 60px;
     margin-right: 20px;
 }
