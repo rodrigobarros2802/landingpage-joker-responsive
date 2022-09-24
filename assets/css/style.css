@@ -127,6 +127,7 @@ header .logo img, header .toggle img {
     background-image: url("/assets/img/joker.png");
     background-size: cover;
     animation: animate 20s linear infinite;
+    cursor: pointer;
 }
 
 @keyframes animate {
