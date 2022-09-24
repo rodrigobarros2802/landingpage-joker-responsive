@@ -5,6 +5,7 @@
 * [Desafio](https://github.com/rodrigobarros2802/landingpage-joker-responsive#trophy-desafio)
 * [Tecnologias](https://github.com/rodrigobarros2802/landingpage-joker-responsive#hammer_and_wrench-tecnologias)
 * [Objetivo](https://github.com/rodrigobarros2802/landingpage-joker-responsive#dart-objetivo)
+* [Aprendizado](https://github.com/rodrigobarros2802/landingpage-joker-responsive/blob/master/README.md#open_book-aprendizado)
 * [Imagens do Projeto](https://github.com/rodrigobarros2802/landingpage-joker-responsive#camera-imagens-do-projeto)
 * [Links](https://github.com/rodrigobarros2802/landingpage-joker-responsive#link-links)
 * [Autor](https://github.com/rodrigobarros2802/landingpage-joker-responsive#technologist-autor)
