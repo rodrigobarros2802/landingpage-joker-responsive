@@ -176,5 +176,69 @@ header .logo img, header .toggle img {
 }
 
 @media (max-width: 991px) {
-    
+    header {
+        padding: 20px 50px;
+    }
+
+    header .logo {
+        max-width: 80px;
+    } 
+
+    header .toggle {
+        max-width: 40px;
+        cursor: pointer;
+    }
+
+    .banner {
+        padding: 100px 50px;
+    }
+
+    .banner .conteudo h2 {
+        font-size: 2em;
+        letter-spacing: 0.05em;
+        font-weight: 400;
+    }
+
+    .banner .conteudo span {
+        font-weight: 700;
+    }
+
+    .banner .conteudo p {
+        line-height: 1em;
+        letter-spacing: 0.01em;
+    }
+
+    .slide {
+        position: relative;
+        bottom: initial;
+        left: 0;
+        width: 250px;
+        height: 150px;
+        margin: 20px 0;
+    }
+
+    .redes {
+        position: absolute;
+        top: initial;
+        right: initial;
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .redes li {
+        margin: 0 5px;
+        list-style: none;
+    }
+
+    .redes li a {
+        text-decoration: none;
+    }
+
+    .trailer video {
+        max-width: 90%;
+        outline: none;
+    }
 }
