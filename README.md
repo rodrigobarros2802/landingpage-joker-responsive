@@ -56,7 +56,7 @@
 ![Trailer Mobile](https://github.com/rodrigobarros2802/landingpage-joker-responsive/blob/ecbf4c8ea9d14b765704d2401e21d4a7a9a38e6b/assets/img/print%20trailer%20mobile.png)
 
 # :link: Links
-* GitHub Pages - https://rodrigobarros2802.github.io/landingpage-joker-responsive/
+* Deploy Netifly - https://cool-gingersnap-154d62.netlify.app/
 
 # :technologist: Autor
 * GitHub - 
